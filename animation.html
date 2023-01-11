@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/ygb4btq.css">
     <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="layout.css" />
     <title>Forside</title>
@@ -12,23 +13,93 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="grundweb.html">Grundlæggende Web</a></li>
-                <li><a href="grundux.html">Grundlæggende UX</a></li>
-                <li><a href="animation.html">Animation</a></li>
-                <li><a href="grundindhold.html">Grundlæggende Indhold</a></li>
-                <li><a href="ommig.html">Om mig</a></li>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding"><img class="logolille" src="billeder/logo.webp" alt="logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="ommig.html" class="nav-link">Om mig</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="main">
+        <h1>
+            Tema 4
+        </h1>
+        <h1>
+            Animation
+        </h1>
 
+        <p>
+            I Tema 4 blev vi introduceret til programmeringssproget Javascript, samt spildesign i form af UI-elementer,
+            figurelementer, baggrundsdesign og
+            kompositionsteknikker. Vi fik til opgave at designe og kode et klassisk computerspil fra bunden ved brug af
+            kombinationen af html, css og javascript.
+            Jeg startede ud med at lave skitser, for derefter at transformere dem i Illustrator til mere brugervenlige
+            spilelementer. Jeg skabte her en masse forskellige UI-elementer.
+            Jeg lærte hvordan noget der før har virket helt simpelt pludselig blev udfordrende når man skulle kode det
+            sammen,
+            f.eks. bare at få elementerne til at opholde sig det rigtige sted på baggrunden.
+            Det var helt sikkert javascript delen der var mest udfordrende for mig på første semester, men helt sikkert
+            også noget
+            af det sjoveste når det endelig virkede.
+        </p>
+
+        <div class="grid_1-1">
+            <div>
+                <img src="billeder/animation/startskærm.svg" alt="">
+            </div>
+            <div>
+                <img src="billeder/animation/how_to_play.svg" alt="">
+            </div>
+        </div>
+        <p>
+            Gennem temaet blev vi introduceret til flere stilarter. Jeg valgte stilen kawaii og fandt inspiration fra
+            smykkefirmaet
+            maanesten, fra rummet og de kawaii elementer vi blev præsenteret for i timerne.
+            Vi producerede først individuelle skitser i papir, rettede til og rentegnede papirprototypen over i
+            iIllustrator.
+            Derudover lavede vi state machine diagrammer der havde til formål at visualisere hvordan spillets gang
+            skulle forløbe,
+            og for at gøre det nemmere at kode.
+        </p>
+        <h2>
+            Assets
+        </h2>
+        <p>Assets lavet i Illustrator</p>
+        <div class="grid_1-1-1-1">
+            <div>
+                <img src="billeder/animation/godt_liv.svg" alt="">
+            </div>
+            <div><img src="billeder/animation/sorthul.svg" alt="">
+            </div>
+            <div><img src="billeder/animation/moon.svg" alt="">
+            </div>
+            <div><img src="billeder/animation/stjerne.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <a href="http://dagmarlouiselicht.dk/kea/04_animation/website/spil.html">
+                <p class="knap">
+                    PRØV SPILLET HER
+                </p>
+            </a>
+        </div>
     </main>
-    <footer>
-
+    <footer id="footer">
+        <div class="kasse">
+            <p>Portfolio Website</p>
+            <p>Dagmar Louise Licht, Viborggade 10 | DK-2100 Østerbro | +45 93925595 |
+                dagmar.licht1@gmail.com</p>
+            <p>Eksamensopgave | Januar 2023</p>
+        </div>
     </footer>
+    <script src="generel.js"> </script>
+
 </body>
 
 </html>

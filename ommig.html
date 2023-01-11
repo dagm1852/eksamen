@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/ygb4btq.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="layout.css" />
@@ -12,18 +13,20 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="grundweb.html">Grundlæggende Web</a></li>
-                <li><a href="grundux.html">Grundlæggende UX</a></li>
-                <li><a href="animation.html">Animation</a></li>
-                <li><a href="grundindhold.html">Grundlæggende Indhold</a></li>
-                <li><a href="ommig.html">Om mig</a></li>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding"><img class="logolille" src="billeder/logo.webp" alt="logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="ommig.html" class="nav-link">Om mig</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <div class="grid_1-1">
             <div>
                 <img class="sorthvid" src="billeder/dagmar.webp" alt="dagmar">
@@ -33,18 +36,94 @@
                 <h1>OM MIG</h1>
                 <h3>Uddannelse</h3>
                 <p>
-                    Mit navn er Dagmar Louise Licht. Jeg er 23 år gammel og går studerer Multimediedesign på første
-                    semester
-                    på KEA -
-                    Københavns Erhvervs Akademi.
+                    Mit navn er Dagmar Louise Licht. Jeg er 23 år gammel og går studerer til daglig Multimediedesign på
+                    første semester på
+                    KEA - Københavns Erhvervs Akademi.
+                </p>
+                <p>
+                    Før jeg begyndte på KEA havde jeg minimale erfaringer indenfor multimediedesign og IT. Jeg har altid
+                    synes det har været
+                    fedt at være kreativ, især at sy, tegne, lave mad, male og bygge, men jeg er glad for allerede nu at
+                    have opbygget mange
+                    forskellige kompetencer hvor kan udfolde mig kreativt på min computer med bl.a. produktion af
+                    grafisk design og video.
+                </p>
+                <p>
+                    I fremtiden glæder jeg mig til at komme ud på arbejdsmarkedet og prøve kræfter i designafdelingen,
+                    hvor jeg kan udnytte
+                    den omfattende viden, jeg har fået i løbet af min uddannelse. Mine interesser og kompetencer ligger
+                    i designområdet,
+                    hvor jeg kan få lov til at udfolde min kreativitet og være med til at skabe nogle fantastiske
+                    brugergrænseflader.
                 </p>
             </div>
         </div>
+        <div class="grid_faerdigheder">
+            <div>
+                <div class="faerdigheder center">
+                    <h3>
+                        Mine færdigheder
+                    </h3>
+                </div>
+                <div class="faerdigheder2 boks">
+                    <p>
+                        Adobe Illustrator
+                    </p>
+                    <p>
+                        HTML, CSS, Javascript
+                    </p>
+                    <p>
+                        Adobe Premiere Pro
+                    </p>
+                    <p>
+                        Adobe XD
+                    </p>
+                    <p>
+                        Adobe Photoshop
+                    </p>
+                </div>
 
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="grid_sprog">
+            <div>
+            </div>
+            <div>
+                <h3 class="center">
+                    Sproglige færdigheder
+                </h3>
+                <div class="grid_1-1">
+                    <div class="sprog">Dansk</div>
+                    <div class="sprog2">Modersmål</div>
+                    <div class="sprog">Engelsk</div>
+                    <div class="sprog2">Flydende i skrift og tale</div>
+                    <div class="sprog">Tysk</div>
+                    <div class="sprog2">Øvet i skrift og tale</div>
+                    <div class="sprog">Norsk</div>
+                    <div class="sprog2">Øvet i skrift og tale
+                    </div>
+                    <div class="sprog">Fransk</div>
+                    <div class="sprog2">Let øvet i skrift og tale</div>
+                    <div class="sprog">Swahili</div>
+                    <div class="sprog2">Let øvet i skrift og tale</div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-
+    <footer id="footer">
+        <div class="kasse">
+            <p>Portfolio Website</p>
+            <p>Dagmar Louise Licht, Viborggade 10 | DK-2100 Østerbro | +45 93925595 |
+                dagmar.licht1@gmail.com</p>
+            <p>Eksamensopgave | Januar 2023</p>
+        </div>
     </footer>
 </body>
+
+<script src="generel.js"> </script>
 
 </html>
