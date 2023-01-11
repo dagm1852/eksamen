@@ -14,15 +14,22 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img class="logolille" src="billeder/logo.webp" alt="logo"></a></li>
-                <li><a href="grundweb.html">Grundlæggende Web</a></li>
-                <li><a href="grundux.html">Grundlæggende UX</a></li>
-                <li><a href="animation.html">Animation</a></li>
-                <li><a href="grundindhold.html">Grundlæggende Indhold</a></li>
-                <li><a href="ommig.html">Om mig</a></li>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding"><img class="logolille" src="billeder/logo.webp" alt="logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="ommig.html" class="nav-link">Om mig</a></li>
+                <li class="nav-item skjul"><a href="grundweb.html" class="nav-link">Grundlæggende Web</a></li>
+                <li class="nav-item skjul"><a href="grundux.html" class="nav-link">Grundlæggende UX</a></li>
+                <li class="nav-item skjul"><a href="animation.html" class="nav-link">Animation</a></li>
+                <li class="nav-item skjul"><a href="grundindhold.html" class="nav-link">Grundlæggende Indhold</a></li>
+
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
     <main>

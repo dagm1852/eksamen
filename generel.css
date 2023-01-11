@@ -59,6 +59,12 @@ a {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .skjul {
+    display: none;
+  }
+}
+
 .bar {
   display: block;
   width: 25px;
